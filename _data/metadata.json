@@ -1,15 +1,15 @@
 {
-  "title": "Your Blog Name",
-  "url": "https://myurl.com/",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "title": "Keep Brevard Musical",
+  "url": "https://keepbrevardmusical.com/",
+  "description": "Musicians and others in Brevard affected by the loss of live music, supporting one another.",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "Musicians and others in Brevard affected by the loss of live music, supporting one another.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://myurl.com/"
+    "id": "https://keepbrevardmusical.com/"
   },
   "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com"
+    "name": "Paul Roub",
+    "email": "paul@roub.net"
   }
 }
