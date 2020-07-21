@@ -5,15 +5,16 @@ eleventyNavigation:
   order: 1
 ---
 
-Coming soon!
+<!doctype html>
 
-{#
-<h1>Latest 3 Posts</h1>
+<html>
+<head>
+  <title>Keep Brevard Musical</title>
+  <link href="/css/kbm.css" rel="stylesheet">
+  <link rel=canoncal href=https://www.facebook.com/groups/707782036721564/>
+</head>
 
-{% set postslist = collections.posts | head(-3) %}
-{% set postslistCounter = collections.posts | length %}
-{% include "postslist.njk" %}
-
-<p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>
-
-#}
+<body>
+  <a href="https://www.facebook.com/events/2874989632610051/"><img alt="Keep Brevard Musical - Show #1, Friday July 24" class=splashy src=/img/show1@1x.jpg srcset="/img/show1@1x.jpg 1x, /img/show1@2x.jpg 2x"></a>
+</body>
+</html>
