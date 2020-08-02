@@ -19,14 +19,8 @@ h1 {
     margin: 0 auto;
 }
 
-.product img {
-    max-width: 100%;
-    margin-bottom: 1em;
-}
-
 .purchase {
-    display: flex;
-    justify-content: space-between;
+    text-align: right;
 }
 
 .blurb {
@@ -52,4 +46,28 @@ main {
 .tracker {
     margin: 0;
     float: right;
+}
+
+.ppbutton {
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+}
+
+.ppbutton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+
+.ppbutton:active {
+	position:relative;
+	top:1px;
 }
