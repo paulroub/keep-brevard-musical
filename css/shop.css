@@ -14,7 +14,6 @@ h1 {
 .product {
     width: 100%;
     padding: 1em;
-    border: 1px solid #CCC;
     background-color: #333;
     overflow: auto;
     margin: 0 auto;
@@ -42,4 +41,15 @@ main {
     width: 100%;
     max-width: 900px;
     margin: 0 auto;
+}
+
+.product .hero {
+    width: 100%;
+    display: block;
+    margin-bottom: 1em;
+}
+
+.tracker {
+    margin: 0;
+    float: right;
 }
